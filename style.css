@@ -1,0 +1,63 @@
+.link {
+  text-decoration: none;
+  color: green;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+.icon-item {
+  display: inline-block;
+}
+
+.icon-img {
+  width: 50px;
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+.icon-img:hover {
+  width: 60px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+
+.icon2 {
+  width: 70px;
+  display: inline;
+}
+
+#icon-list {
+  list-style: none;
+  padding-right: 20px;
+}
+
+#profile-img {
+  width: 250px;
+  border-radius: 10%;
+}
+
+#bio-text {
+  font-family: 'Courier New', Courier, monospace;
+  width: 500px;
+  color: white;
+  display: inline-block;
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body {
+    background-color: rgb(16, 0, 43);
+}
+
+main {
+  text-align: center;
+}
+
+hr {
+  width: 400px;
+}
