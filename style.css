@@ -1,13 +1,3 @@
-.link {
-  text-decoration: none;
-  color: green;
-}
-
-.link:hover {
-  text-decoration: underline;
-  color: greenyellow;
-}
-
 .icon-item {
   display: inline-block;
 }
@@ -30,13 +20,90 @@
   display: inline;
 }
 
+.text-links {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: aqua;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.projects-images {
+  width: 300px;
+  margin: 3px;
+  border: 3px solid #6610f2;
+  border-radius: 5px;
+}
+
+.projects-images:hover {
+  width: 310px;
+  margin: 0px;
+  border: 3px solid #9462e4;
+  border-radius: 5px;
+}
+
+.coming-projects {
+  width: 300px;
+  border-radius: 5px;
+  height: 163px;
+  margin: 3px;
+  background-color: #000000;
+  border: 3px solid #6610f2;
+  margin-bottom: 12px;
+}
+
+.coming-text {
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.project-title {
+  color: #ffffff;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.project-text {
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-projects {
+  width: 320px;
+  text-align: center;
+  display: inline-block;
+}
+
 #icon-list {
   list-style: none;
   padding-right: 20px;
 }
 
+#link-trybe {
+  text-decoration: none;
+  color: green;
+}
+
+#link-trybe:hover {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
 #profile-img {
-  width: 250px;
+  width: 225px;
   border-radius: 10%;
 }
 
@@ -50,8 +117,23 @@
   font-weight: 500;
 }
 
+.project-article {
+  display: inline-block;
+}
+
+.projects {
+  padding-top: 10px;
+  background-color: #161a1d;
+  border-radius: 30px;
+  width: 100%;
+  border: 0;
+  margin: 10px 0px 0px 0px;
+  height: 500px;
+}
+
 body {
-    background-color: rgb(16, 0, 43);
+    background-color: #0b090a;
+    margin-bottom: 0px;
 }
 
 main {
@@ -60,4 +142,13 @@ main {
 
 hr {
   width: 400px;
+}
+
+footer {
+  background-color: #161a1d;
+  margin-top: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  padding: 2px;
 }
