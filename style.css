@@ -20,8 +20,9 @@
   display: inline;
 }
 
-.text-links {
+.text-reference {
   color: white;
+  margin-left: 15px;
 }
 
 .link {
@@ -36,16 +37,20 @@
 
 .projects-images {
   width: 300px;
+  filter: blur(3px);
   margin: 3px;
   border: 3px solid #6610f2;
   border-radius: 5px;
+  transition-duration: 0.25s;
 }
 
 .projects-images:hover {
   width: 310px;
+  filter: blur(0px);
   margin: 0px;
   border: 3px solid #9462e4;
   border-radius: 5px;
+  transition-duration: 0.25s;
 }
 
 .coming-projects {
@@ -127,7 +132,7 @@
   border-radius: 30px;
   width: 100%;
   border: 0;
-  margin: 10px 0px 0px 0px;
+  margin: 35px 0px 0px 0px;
   height: 500px;
 }
 
