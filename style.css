@@ -110,14 +110,15 @@
 #profile-img {
   width: 225px;
   border-radius: 10%;
+  /* filter: blur(10px); */
 }
 
 #bio-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   width: 500px;
   color: white;
   display: inline-block;
-  margin-top: 60px;
+  margin-top: 90px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -126,9 +127,9 @@
   display: inline-block;
 }
 
-.projects {
+#projects {
   padding-top: 10px;
-  background-color: #161a1d;
+  background-color: #0b090a;
   border-radius: 30px;
   width: 100%;
   border: 0;
@@ -136,9 +137,64 @@
   height: 500px;
 }
 
+.header-letter {
+  color: #6610f2;
+  font-size: 36px;
+}
+
+.anchor-text {
+ display: inline-block;
+ margin-left: 15px;
+}
+
+.anchor-link {
+  color: #cecece;
+  text-decoration: none;
+}
+
+.anchor-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.anchor-link:active {
+  color: #6610f2;
+  text-decoration: none;
+}
+
+#anchor-header {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  margin: 15px;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 20%;
+  padding: 10px;
+}
+
+header {
+  position: fixed;
+  background-color: #0b090a;
+  border-bottom: 1px solid #161a1d;
+  width: 100%;
+  padding-bottom: 0px;
+  padding-left: 30%;
+}
+
+h1 {
+  color: white;
+  font-family: Roboto, sans-serif;
+  width: 20%;
+  display: inline;
+}
+
 body {
-    background-color: #0b090a;
-    margin-bottom: 0px;
+    background-color: #0e091b;
+    margin: 0px;
 }
 
 main {
@@ -150,7 +206,7 @@ hr {
 }
 
 footer {
-  background-color: #161a1d;
+  background-color: #0b090a;
   margin-top: 50px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;

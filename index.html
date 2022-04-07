@@ -6,13 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <title>Portifólio</title>
 </head>
 
 <body>
+  <header>
+    <h1><span class="header-letter">J</span>oão <span class="header-letter">M</span>arques</h1>
+    <nav>
+      <ul id="anchor-header">
+        <li class="anchor-text"><a class="anchor-link" href="#bio-article">Home</a></li>
+        <li class="anchor-text"><a class="anchor-link" href="#projects">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section>
-      <article>
+      <article id="bio-article">
         <p id="bio-text">Olá meu nome é João Marques tenh 18 anos e sou de gravatai,
           gosto bastante de cozinhar no meu tempo vago (mesmo só sabendo o basico).
           atualmente estou aprendendo html e css e a programar em Javascript sempre
@@ -35,8 +47,7 @@
       </ul>
       <hr>
     </section>
-
-    <section class="projects">
+    <section id="projects">
       <article class="project-article">
         <div class="container-projects">
           <a target="_blank" href="./projects/leassons_learned.html"><img src="./projects-images/leassons_learned.png"
@@ -47,7 +58,6 @@
           </p>
         </div>
       </article>
-
       <section class="project-article">
         <article class="project-article">
           <div class="container-projects">
@@ -79,6 +89,7 @@
           </div>
         </article>
       </section>
+    </section>
   </main>
 
   <!-- Footer da pagina -->
