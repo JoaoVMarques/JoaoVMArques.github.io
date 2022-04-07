@@ -110,7 +110,6 @@
 #profile-img {
   width: 225px;
   border-radius: 10%;
-  filter: blur(10px);
 }
 
 #bio-text {
