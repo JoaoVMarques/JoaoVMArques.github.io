@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonte - https://css-tricks.com/emoji-as-a-favicon/ -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <title>project - pixels art</title>
+</head>
+<body>
+  <article id="pallet">
+    <div id="palletContainer">
+      <section>
+        <h1 id="title">Paleta de Cores</h1>
+        <ul id="color-palette">
+          <li class="color selected"></li>
+          <li class="color"></li>
+          <li class="color"></li>
+          <li class="color"></li>
+        </ul>
+      </section>
+      <section id="buttonsContainer">
+        <button id="clear-board">Limpar</button>
+        <input type="number" id="board-size" min="1" max="100" oninput="validity.valid||(value='');">
+        <button id="generate-board">VQV</button>
+        <button id="luck">Sortear!</button>
+      </section>
+    </div>
+  </article>
+  <article id="board">
+    <div id="boardContainer">
+      <div id="pixel-board"></div>
+    </div>
+  </article>
+  <footer>
+    <h2>Projeto - pixels art</h2>
+    <h3>Criado por: João Victor Marques</h2>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
