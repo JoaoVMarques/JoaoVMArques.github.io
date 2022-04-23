@@ -5,7 +5,7 @@ const leassonsLearned = {
   img: './projects-images/leassons-learned.png',
   alt: 'foto do site Leassons learned',
   title: 'Leassons Learned',
-  description: 'Primeiro projeto da trybe, foi muito legal participar mas é apenas o começo'
+  description: 'Primeiro projeto da trybe, foi muito legal participar mas é apenas o começo.'
 }
 
 const pixelsArt = {
@@ -14,6 +14,14 @@ const pixelsArt = {
   alt: 'foto do site pixelsArt',
   title: 'Pixels Art',
   description: 'Site de colorir pixelzinhos com cores pré determinadas'
+}
+
+const todoList = {
+  href: './projects/todo-list/index.html',
+  img: './projects-images/todo-list.png',
+  alt: 'foto do site Todo List',
+  title: 'Todo list',
+  description: 'Uma lista de afazeres basica. podendo apagar e mudar items da lista.'
 }
 
 // Project ----
@@ -59,3 +67,4 @@ function createTexts(element, classe, texto) {
 // Project ----
 createProject(leassonsLearned);
 createProject(pixelsArt);
+createProject(todoList);
