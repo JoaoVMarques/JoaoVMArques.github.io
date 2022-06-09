@@ -22,7 +22,39 @@
 }
 
 .programming-title {
+  width: 14.90em;
   font-size: 30px;
   color: rgb(59 130 246);
 }
 
+.typewriter {
+  border-right: 2px solid rgb(59 130 246);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 3s steps(28) 1s 1 normal both,
+  blink 500ms steps(28) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  99% {
+    border-right: 2px solid rgb(59 130 246);
+  }
+
+  to {
+    width: 14.90em;
+    border-right: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right-color: rgb(59 130 246);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
