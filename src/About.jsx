@@ -2,6 +2,11 @@ import { Component } from "react";
 import java from "./imgs/javascript.png";
 import html from "./imgs/html.png";
 import react from "./imgs/react.png";
+import git from "./imgs/git.png";
+import boostrap from "./imgs/bootstrap.png";
+import csharp from "./imgs/csharp.png";
+import nodejs from "./imgs/nodejs.png";
+import python from "./imgs/python.png";
 import "./about.css";
 
 class About extends Component {
@@ -33,6 +38,28 @@ class About extends Component {
             <div className="skill-container">
               <img className="skills-img" src={react} alt="" />
               <span className="skill-name">React js</span>
+            </div>
+            <div className="skill-container">
+              <img className="skills-img" src={git} alt="" />
+              <span className="skill-name">Git</span>
+            </div>
+          </div>
+          <div className="tools-container">
+            <div className="skill-container">
+              <img className="skills-img" src={nodejs} alt="" />
+              <span className="skill-name">NodeJs</span>
+            </div>
+            <div className="skill-container">
+              <img className="skills-img" src={csharp} alt="" />
+              <span className="skill-name">C#</span>
+            </div>
+            <div className="skill-container">
+              <img className="skills-img" src={python} alt="" />
+              <span className="skill-name">Python</span>
+            </div>
+            <div className="skill-container">
+              <img className="skills-img" src={boostrap} alt="" />
+              <span className="skill-name">Boostrap</span>
             </div>
           </div>
         </div>

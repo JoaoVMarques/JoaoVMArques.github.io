@@ -20,11 +20,13 @@
 .tools-container {
   justify-content: space-between;
   display: flex;
-  width: 55vw;
+  width: 65vw;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .skill-container {
+  width: 131px;
   height: 70px;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -35,6 +37,8 @@
 }
 
 .skill-name {
+  font-weight: 500;
+  margin-left: 8px;
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
