@@ -1,0 +1,41 @@
+.About-Title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Sub-Title-About {
+  font-size: 2rem;
+  margin: 36px 0 10px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+}
+
+.About-Section {
+  width: 80vw;
+  margin: auto;
+}
+
+.tools-container {
+  justify-content: space-between;
+  display: flex;
+  width: 55vw;
+  margin: auto;
+}
+
+.skill-container {
+  height: 70px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color:  rgb(244, 244, 245);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-name {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}

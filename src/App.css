@@ -38,24 +38,6 @@
   blink 500ms steps(28) infinite normal;
 }
 
-.About-Title {
-  text-align: center;
-  font-size: 3rem;
-}
-
-.Sub-Title-About {
-  font-size: 2rem;
-  margin: 36px 0 10px;
-}
-
-.about-text {
-  font-size: 1.2rem;
-}
-
-.About-Section {
-  width: 80vw;
-  margin: auto;
-}
 
 @keyframes typewriter {
   from {

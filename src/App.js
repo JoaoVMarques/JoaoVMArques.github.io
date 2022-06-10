@@ -6,7 +6,10 @@ import About from './About'
 class App extends Component {
   render() {
     return (
-      <><Main /><About /></>
+      <>
+      <Main />
+      <About />
+      </>
     );
   }
 }
