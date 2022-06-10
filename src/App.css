@@ -7,7 +7,7 @@
 .main {
   background-color: white;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
   align-items: center;
   display: flex;
 }
@@ -21,10 +21,13 @@
   margin-bottom: 5px;
 }
 
-.programming-title {
-  width: 14.90em;
-  font-size: 30px;
+.blue {
   color: rgb(59 130 246);
+}
+
+.programming-title {
+  width: 14.95em;
+  font-size: 30px;
 }
 
 .typewriter {
@@ -33,6 +36,25 @@
   white-space: nowrap;
   animation: typewriter 3s steps(28) 1s 1 normal both,
   blink 500ms steps(28) infinite normal;
+}
+
+.About-Title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Sub-Title-About {
+  font-size: 2rem;
+  margin: 36px 0 10px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+}
+
+.About-Section {
+  width: 80vw;
+  margin: auto;
 }
 
 @keyframes typewriter {
@@ -45,7 +67,7 @@
   }
 
   to {
-    width: 14.90em;
+    width: 14.95em;
     border-right: 0;
   }
 }
