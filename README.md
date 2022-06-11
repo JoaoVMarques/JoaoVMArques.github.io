@@ -6,4 +6,4 @@
 <br>
 
 ## 🚀 Link
-#### Clique [aqui](https://joaovmarques.github.io) para abrir. 
+#### Clique [aqui](https://joaovmarques.github.io/portfolio/) para abrir. 
