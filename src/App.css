@@ -26,7 +26,8 @@
 }
 
 .programming-title {
-  width: 14.95em;
+  margin: auto;
+  width: 13.8em;
   font-size: 30px;
 }
 
@@ -38,6 +39,10 @@
   blink 500ms steps(28) infinite normal;
 }
 
+hr {
+  margin: 0px auto 40px;
+  width: 30vw;
+}
 
 @keyframes typewriter {
   from {
@@ -49,7 +54,7 @@
   }
 
   to {
-    width: 14.9em;
+    width: 13.8em;
     border-right: 0;
   }
 }

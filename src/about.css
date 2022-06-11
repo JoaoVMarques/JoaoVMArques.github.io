@@ -36,6 +36,12 @@
   align-items: center;
 }
 
+.skill-container:hover {
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 10%);
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
 .skill-name {
   font-weight: 500;
   margin-left: 8px;
