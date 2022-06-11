@@ -1,0 +1,39 @@
+.projects-section {
+  background-color: rgb(243 244 246);
+  padding-top: 15px;
+}
+
+.project-card {
+  height: 350px;
+  width: 30%;
+  background-color: white;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 15px;
+
+}
+
+.description-projects {
+  margin-top: 8px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.project-img {
+  display: block;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-line {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 20%;
+}
+
+.skills-project {
+  color: #FFAC00;
+}

@@ -1,6 +1,16 @@
 .center-text-container {
-  margin: 0 auto;
   width: 450px;
+}
+
+.mg-auto {
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.text-center {
   text-align: center;
 }
 
@@ -26,7 +36,6 @@
 }
 
 .programming-title {
-  margin: auto;
   width: 13.8em;
   font-size: 30px;
 }
@@ -39,8 +48,8 @@
   blink 500ms steps(28) infinite normal;
 }
 
-hr {
-  margin: 0px auto 40px;
+.section-line {
+  margin-bottom: 40px;
   width: 30vw;
 }
 
