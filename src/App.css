@@ -36,7 +36,7 @@
 }
 
 .programming-title {
-  width: 13.8em;
+  width: 14em;
   font-size: 30px;
 }
 
@@ -63,7 +63,7 @@
   }
 
   to {
-    width: 13.8em;
+    width: 14em;
     border-right: 0;
     overflow: visible;
   }
