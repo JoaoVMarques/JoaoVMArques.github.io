@@ -9,7 +9,7 @@ class Main extends Component {
             <span className="subhead-title">Olá! eu sou</span>
             <h1 className="name-title">João Marques</h1>
             <h2 className="programming-title typewriter blue mg-auto">
-              Sou um programador Front-End
+              Sou um programador Front-end
             </h2>
           </div>
         </main>

@@ -59,11 +59,13 @@
 
   99% {
     border-right: 2px solid rgb(59 130 246);
+    overflow: hidden;
   }
 
   to {
     width: 13.8em;
     border-right: 0;
+    overflow: visible;
   }
 }
 
