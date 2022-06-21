@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Projects.css";
+import "../styles/Projects.css";
 import PlaceHolderCard from "./PlaceHolderCard";
 
 class Projects extends Component {

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import placeholder from './imgs/placeholder.png'
+import placeholder from '../imgs/placeholder.png'
 
 class PlaceHolderCard extends Component {
   render() {

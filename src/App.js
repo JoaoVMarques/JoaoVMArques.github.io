@@ -1,8 +1,8 @@
-import "./App.css";
+import "./styles/App.css";
 import { Component } from "react";
-import Main from './Main'
-import About from './About'
-import Projects from "./Projects";
+import Main from './components/Main'
+import About from './components/About'
+import Projects from './components/Projects'
 
 class App extends Component {
   render() {

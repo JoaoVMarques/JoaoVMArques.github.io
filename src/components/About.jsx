@@ -1,13 +1,13 @@
 import { Component } from "react";
-import java from "./imgs/javascript.png";
-import html from "./imgs/html.png";
-import react from "./imgs/react.png";
-import git from "./imgs/git.png";
-import boostrap from "./imgs/bootstrap.png";
-import csharp from "./imgs/csharp.png";
-import nodejs from "./imgs/nodejs.png";
-import python from "./imgs/python.png";
-import "./About.css";
+import java from "../imgs/javascript.png";
+import html from "../imgs/html.png";
+import react from "../imgs/react.png";
+import git from "../imgs/git.png";
+import boostrap from "../imgs/bootstrap.png";
+import csharp from "../imgs/csharp.png";
+import nodejs from "../imgs/nodejs.png";
+import python from "../imgs/python.png";
+import "../styles/About.css";
 
 class About extends Component {
   render() {
