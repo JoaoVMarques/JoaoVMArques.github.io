@@ -1,20 +1,25 @@
-import "./styles/App.css";
-import { Component } from "react";
-import Main from './components/Main'
-import About from './components/About'
-import Projects from './components/Projects'
+import logo from './logo.svg';
+import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <>
-      <Main />
-      <hr className="section-line mg-auto" />
-      <About />
-      <Projects />
-      </>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
